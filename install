@@ -46,7 +46,7 @@ require_one_installed() {
 }
 
 AW_PATH=$HOME/.vim-anywhere
-AW_URL='https://github.com/cknadler/vim-anywhere'
+AW_URL='https://github.com/JohnPiwinski/neovim-anywhere'
 
 ###
 # pre-installation checks
@@ -71,7 +71,8 @@ fi
 # Linux specific checks
 if [[ $OSTYPE == "linux-gnu" ]]; then
   require_one_installed gconftool gsettings
-  require_installed gvim
+  require_installed nvim
+  require_installed xfce4-terminal
   require_installed xclip
 
 # OSX specific checks
