@@ -1,3 +1,5 @@
+Modified from the repository vim-anywhere https://github.com/cknadler/vim-anywhere.
+xfce4-terminal is a required dependency.
 # vim-anywhere
 
 Sometimes, you edit text outside of Vim. These are sad times. Enter
